@@ -1,0 +1,44 @@
+:root {
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: #101820;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)),
+    url('/img/fondofc26.webp');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  color: white;
+}
+
+p {
+  color: #eeeeee;
+}

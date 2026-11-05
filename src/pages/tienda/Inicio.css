@@ -1,0 +1,42 @@
+.inicio {
+  min-height: 100vh;
+  background-color: #101820;
+  color: white;
+}
+
+.banner-inicio {
+  min-height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url('/img/fondofc26.webp') center/cover no-repeat;
+}
+
+.banner-inicio h1 {
+  color: white;
+}
+
+.categoria-card {
+  background-color: #1e2a32;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.producto-card {
+  background-color: #1e2a32;
+  color: white;
+  border-radius: 12px;
+}
+
+.producto-card .card-title {
+  color: white;
+}
+
+.precio {
+  color: #32cd32;
+  font-size: 22px;
+  font-weight: bold;
+}
