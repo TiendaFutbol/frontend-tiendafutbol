@@ -7,13 +7,13 @@ export default function Inicio() {
             id: 1,
             nombre: "Balón de fútbol",
             precio: "$19.990",
-            imagen: ""
+            imagen: "/img/balon.jpg"
         },
         {
             id: 2,
             nombre: "Camiseta de fútbol",
             precio: "$24.990",
-            imagen: ""
+            imagen: "/img/camisacr7.jpg"
         },
         {
             id: 3,
